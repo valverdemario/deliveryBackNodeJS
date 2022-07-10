@@ -24,7 +24,7 @@ app.set("port", port);
 
 routes(app);
 
-server.listen(port, "192.168.0.3" || "localhost", function () {
+server.listen(port, "localhost", function () {
   console.log("Server listening on port " + port);
 });
 
